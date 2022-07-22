@@ -1,4 +1,4 @@
-```
+```python
 import random
 # 生成10個名為count_(i)之變數,且值為0
 i=0
