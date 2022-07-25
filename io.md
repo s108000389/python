@@ -13,3 +13,15 @@ python在取得使用者輸入文字後，會把我們輸入的文字存到一�
   please enter your name : bonny
   hello,bonny
   ```
+  
+  - 用int()來取得輸入的字串
+  ```
+  i=1
+  while(i != 0):
+    i=input("選擇執行程式")
+    i=int(i) # 要先轉為int
+    if  (i==0):
+        break
+    elif (i==1):
+        print("hello world")
+  ```
