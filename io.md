@@ -1,5 +1,7 @@
 - [input()函式](https://ithelp.ithome.com.tw/articles/10201956)
 - [暫停執行_參考](https://www.delftstack.com/zh-tw/howto/python/python-pause/)
+- [暫停執行](#os.system("pause"))
+
 ### input
 input()函式會讓程式暫停，等待使用者輸入一些文字，  
 python在取得使用者輸入文字後，會把我們輸入的文字存到一個變數內  
@@ -25,3 +27,5 @@ python在取得使用者輸入文字後，會把我們輸入的文字存到一�
     elif (i==1):
         print("hello world")
   ```
+  
+### os.system("pause")
