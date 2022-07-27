@@ -1,5 +1,4 @@
 - [input()函式](https://ithelp.ithome.com.tw/articles/10201956)
-- [暫停執行_參考](https://www.delftstack.com/zh-tw/howto/python/python-pause/)
 - [暫停執行視窗](#暫停執行視窗)
 
 ### input
