@@ -3,11 +3,11 @@ import os
 import imageio
 
 
-png_dir = '../gif圖製做/分佈圖_縮小'
+png_dir = '../gif圖製做/分佈圖_縮小'    #圖片位置
 images = []
 for file_name in os.listdir(png_dir):
     if file_name.endswith('.jpg'):
         file_path = os.path.join(png_dir, file_name)
         images.append(imageio.imread(file_path))
-imageio.mimsave('../gif圖製做/分佈圖_縮小/test.gif', images,fps=0.8)
+imageio.mimsave('../gif圖製做/分佈圖_縮小/test.gif', images,fps=0.8)    #儲存位置與檔名
 ```
